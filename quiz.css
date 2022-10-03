@@ -6,6 +6,7 @@
 body{
   background-color: #b8c6db;
   background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7f7 100%);
+  /* background-image: linear-gradient(315deg, #0e2a52 0%, #1d0f3a 100%); */
   font-family: 'Poppins', sans-serif;
   display: flex;
   align-items: center;
@@ -41,7 +42,7 @@ ul li{
 ul li label{
   cursor: pointer;
 }
-button{
+#submit{
   background-color: #03cae4;
   color: #fff;
   border: none;
@@ -52,10 +53,10 @@ button{
   font-family: inherit;
   padding: 1.3rem;
 }
-button:hover{
+#submit:hover{
   background-color: #04adc4;
 }
-button:focus{
+#submit:focus{
   outline: none;
   background-color: #44b927;
 }
@@ -63,3 +64,20 @@ button:focus{
   body {
     background-color: lightblue;
   }}
+  #btn{
+    font-weight: 500;
+    height: 40px;
+    padding: 7px;
+    background-color: rgb(42, 23, 44);
+    font-family: 'Poppins', sans-serif;
+    border-style: none;
+    /* border: 3px solid rgb(24, 1, 24); */
+    color: rgb(170, 237, 150);
+    margin-top: auto;
+    margin-bottom: 20px;
+  }
+  #btn:hover{
+    cursor: pointer;
+    color: #44b927;
+    background-color: rgb(63, 38, 67);
+  }
