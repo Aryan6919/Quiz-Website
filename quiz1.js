@@ -110,3 +110,12 @@ submitBtn.addEventListener('click', () => {
        }
     }
 })
+const theme = document.getElementById("btn");
+
+theme.addEventListener('click',()=>{
+    document.body.style.backgroundImage='linear-gradient(315deg, #0e2a52 0%, #1d0f3a 100%)';
+    quiz.style.backgroundColor = '#000';
+    quiz.style.color = '#fff';
+    submitBtn.style.color='#03cae4';
+    submitBtn.style.backgroundColor='#081c1f';
+});
